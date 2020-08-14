@@ -31,11 +31,8 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column) [
-     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
-     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-  ]
-  ORGANIC_PRODUCE[matrix][row][column]
-  CONVENTIONAL_PRODUCE[matrix][row][column]
+     assembled_matrix[1][1]
+     sorted_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
