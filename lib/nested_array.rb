@@ -31,11 +31,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  [
-     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
-     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-  ]
-  [matrix_lookup][matrix][row][column]
+  [matrix_lookup][row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
