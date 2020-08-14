@@ -31,7 +31,8 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup[matrix][row][column]
+  ORGANIC_PRODUCE[row][column]
+  CONVENTIONAL_PRODUCE[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
